@@ -2,8 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
-import CreatePost from "../Pages/CreatePost";
+import CreateJob from "../Pages/CreateJob";
 import ErrorPPage from "../Pages/errorPPage";
+import MyJobs from "../Pages/MyJobs";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPPage />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "/post-job", element: <CreatePost /> },
+      { path: "/post-job", element: <CreateJob /> },
+      { path: "/my-job", element: <MyJobs /> },
     ],
   },
 ]);

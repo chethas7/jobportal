@@ -139,6 +139,15 @@ li {
   border-color: #f7f7f7;
 }
 
+.company-logo {
+  width: 73px; /* Set the desired width */
+  height: 72px; /* Set the desired height */
+  object-fit: fill; /* Maintain aspect ratio and cover the container */
+  border-radius: 8px;
+  /* Add border-radius for a rounded appearance */
+  /* Add any additional styles you need */
+}
+
 /* create a job page */
 
 .create-job-flex {
